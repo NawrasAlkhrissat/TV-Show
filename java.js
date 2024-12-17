@@ -124,13 +124,3 @@ async function creatPerson(){
             
         
     }
-
-//     let res = null;
-// let test = null;
-// async function reqPerson() {
-//     res = await axios.get('https://api.tvmaze.com/search/people?q=Jackie Chan');
-//     test1 = res.data[0].person.name;
-//     test2 = res.data[0].person.gender;
-//     test3 = res.data[0].person.birthday;
-//     test4 = res.data[0].person.country.name;
-// }
