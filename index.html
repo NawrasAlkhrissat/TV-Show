@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
     <title>TV SHOWS</title>
-    
+
 </head>
 <h1>TV SHOWS</h1>
 <form action="submit">
-    <select name="select" id="select">
-        <option value="defult">Select a category to search</option>
-        <option value="shows">Show</option>
-        <option value="People">People</option>
+    <select name="Co" id="Co">
+        <option value="">Select the Show category</option>
+        <option value="horror">Horror</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
     </select>
-    <label for="search">Find TV show!!</label>
-    <input type="text" placeholder="TV SHOWS" id="search">
-    <button>SEARCH</button>
+    <label for="search" class="non">Find TV show!!</label>
+    <select name="select" id="operation" class="non">
+        <option value="defult">Please Select an operation</option>
+        <option value="search">Search</option>
+        <option value="add">Add</option>
+        <option value="delete">Delete</option>
+        <option value="edit">Edit</option>
+    </select>
+    <button class="non">Search </button>
 </form>
 <div class="first">
     <div id="con0" class="dis"></div>
@@ -34,8 +41,6 @@
     <div id="con7" class="dis"></div>
     <div id="con8" class="dis"></div>
 </div>
-
-
 
 
 
