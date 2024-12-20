@@ -1,8 +1,8 @@
 form {
     margin: 5px;
-   margin-bottom: 20px;
-   display: flex;
-   justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -10,26 +10,26 @@ body {
     margin: 0;
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
-    margin: 0;
-    padding: 0;
     font-style: italic;
     color: rgb(159, 4, 4);
     font-weight: 1000;
-    font-size:18px; 
+    font-size: 18px;
 }
-p{
+
+p {
     background-color: rgba(0, 0, 0, 1);
-   
 }
-label{
+
+label {
     margin-top: 9px;
+    margin-right: 5px;
 }
-#search{
+
+#search {
     background-color: black;
     color: rgb(159, 4, 4);
     font-family: 'Arial', sans-serif;
@@ -46,7 +46,22 @@ label{
     margin-left: 10px;
     margin-top: 8px;
     height: 15px;
-    
+
+}
+
+#Co {
+    border: 2px solid red;
+    appearance: none;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(159, 4, 4);
+    align-self: center;
+    margin-top: 5px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red"><path d="M7 10l5 5 5-5H7z"/></svg>');
+    height: 40px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    width: 260px;
 }
 
 button {
@@ -58,9 +73,9 @@ button {
     width: 100px;
     align-self: center;
     margin-top: 5px;
-
 }
-button:hover{
+
+button:hover {
     background-color: red;
     color: black;
 }
@@ -116,6 +131,7 @@ div {
         transform: scale(1);
     }
 }
+
 select {
     background-color: black;
     color: rgb(159, 4, 4);
@@ -132,7 +148,7 @@ select {
     margin-right: 10px;
     margin-top: 8px;
     height: 40px;
-  }
+}
 
 
 .dis:hover {
@@ -140,14 +156,25 @@ select {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-a{
-    
+
+a {
+
     background-color: rgba(0, 0, 0, 1);
     font-style: italic;
     color: rgb(159, 4, 4);
     font-weight: 1000;
-    font-size:18px; 
+    font-size: 18px;
+}
+
+.nana {
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+.non {
+    display: none;
 }
